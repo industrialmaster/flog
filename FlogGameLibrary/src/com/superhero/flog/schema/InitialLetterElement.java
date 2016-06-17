@@ -10,14 +10,14 @@ package com.superhero.flog.schema;
  *
  * @author Industrial Master
  */
-public class ConstantElement extends FlogElement{
-    private Double value;
+public class InitialLetterElement extends LetterValueElement{
+
     
-    public ConstantElement(Double value){
-        this.value = value;
+    
+    
+    public InitialLetterElement(char value) {
+        super(value);
+        setScore(new VariableElement("default", 5.0));
     }
     
-    public Double getValue(){
-        return this.value;
-    }
 }

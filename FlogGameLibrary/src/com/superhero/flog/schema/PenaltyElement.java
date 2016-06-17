@@ -10,14 +10,6 @@ package com.superhero.flog.schema;
  *
  * @author Industrial Master
  */
-public class ConstantElement extends FlogElement{
-    private Double value;
+public class PenaltyElement {
     
-    public ConstantElement(Double value){
-        this.value = value;
-    }
-    
-    public Double getValue(){
-        return this.value;
-    }
 }
